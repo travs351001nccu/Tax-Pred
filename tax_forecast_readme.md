@@ -1,9 +1,3 @@
----
-editor_options:
-  markdown:
-    wrap: 72
----
-
 # 稅收預測系統使用手冊
 
 ## 系統概述
@@ -978,24 +972,6 @@ h=3: 用預測的 y_t+2 再預測 y_t+3
 
 缺點： - 誤差會累積 - 長期預測較不準確
 
-### 相關文獻
-
-如果需要引用方法論，可參考：
-
--   **Lasso**：Tibshirani (1996), "Regression Shrinkage and Selection
-    via the Lasso"
--   **Elastic Net**：Zou & Hastie (2005), "Regularization and Variable
-    Selection via the Elastic Net"
--   **Adaptive Lasso**：Zou (2006), "The Adaptive Lasso and Its Oracle
-    Properties"
--   **Random Forest**：Breiman (2001), "Random Forests"
--   **Direct vs Iterated**：Marcellino et al. (2006), "A comparison of
-    direct and iterated multistep AR methods for forecasting
-    macroeconomic time series"
-
-計量經濟學教科書： - Wooldridge (2019), "Introductory Econometrics: A
-Modern Approach" (7th ed.) - Stock & Watson (2020), "Introduction to
-Econometrics" (4th ed.)
 
 ------------------------------------------------------------------------
 
